@@ -12,7 +12,7 @@ console.log(`The Average Price is : ${averagePrice}`);
 console.log(`The Price After 5% off : ${PriceAfterDiscount}`);
 
 console.log(
-  balance > PriceAfterDiscount
+  balance >= PriceAfterDiscount
     ? "Customer Can Buy the Whole Cart"
     : "Customer Does not Have Efficient Balance"
 );
@@ -48,7 +48,7 @@ console.log(
 // console.log(`The Price After 5% off : ${PriceAfterDiscount}`);
 
 // console.log(
-//   balance > PriceAfterDiscount
+//   balance >= PriceAfterDiscount
 //     ? "Customer Can Buy the Whole Cart"
 //     : "Customer Does not Have Efficient Balance"
 // );
